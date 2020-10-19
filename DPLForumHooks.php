@@ -20,18 +20,4 @@ class DPLForumHooks {
 		$f = new DPLForum();
 		return $f->parse( $input, $parser );
 	}
-
-	/**
-	 * Register the canonical names for our namespace and its talkspace.
-	 *
-	 * @param array $list Array of namespace numbers with corresponding
-	 *                     canonical names
-	 * @return bool true
-	 */
-	public static function onCanonicalNamespaces( &$list ) {
-		$list[NS_FORUM] = 'Forum';
-		$list[NS_FORUM_TALK] = 'Forum_talk';
-		return true;
-	}
-
 }

@@ -34,9 +34,6 @@
 	"Hooks": {
 		"ParserFirstCallInit": [
 			"DPLForumHooks::onParserFirstCallInit"
-		],
-		"CanonicalNamespaces": [
-			"DPLForumHooks::onCanonicalNamespaces"
 		]
 	},
 	"manifest_version": 1
